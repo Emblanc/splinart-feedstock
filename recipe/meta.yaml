@@ -2,10 +2,11 @@
 
 package:
   name: splinart
-  version: {{ data.get('version') }}
+  version: 0.1.0
 
 source:
-  path: ../
+  git_rev: v0.1.0
+  git_url: https://github.com/Emblanc/Splinart
 
 build:
   number: 0
